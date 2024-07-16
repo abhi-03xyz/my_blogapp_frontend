@@ -14,7 +14,7 @@ export default function signin() {
 
             </div>
             <div className="right">
-                <form >
+            <form style={{display:"flex",flexDirection:"column"}}>
                    
                     <div className="forminput_cont">
                         <label>Email</label>
@@ -25,7 +25,7 @@ export default function signin() {
                         <input type="password" placeholder="Enter your password" />
                     </div>
                    
-                    <button type="submit" className="main_btn">Login</button>
+                    <button type="submit" className="main_button">Login</button>
                     <p>Don't have an account? <Link href={"/Authentication/signup"}>Register</Link></p>
                 </form>
             </div>

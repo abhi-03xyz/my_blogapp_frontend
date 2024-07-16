@@ -14,7 +14,7 @@ export default function signup() {
 
             </div>
             <div className="right">
-                <form >
+                <form style={{display:"flex",flexDirection:"column"}}>
                     <div className="forminput_cont">
                         <label>Name</label>
                         <input type="text" placeholder="Enter Your Name" />
@@ -31,7 +31,7 @@ export default function signup() {
                         <label>Confirm Password</label>
                         <input type="password" placeholder="Enter your password" />
                     </div>
-                    <button type="submit" className="main_btn">Register</button>
+                    <button type="submit" className="main_button">Register</button>
                     <p>Already have an account? <Link href={"/Authentication/signin"}>login</Link></p>
                 </form>
             </div>
