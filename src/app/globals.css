@@ -1,0 +1,7 @@
+:root{
+    --col1:rgb(240, 91, 45);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
