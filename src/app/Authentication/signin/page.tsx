@@ -4,12 +4,12 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Link from "next/link";
-
+import '../authentication.css';
 export default function signin() {
   return (
-    <div >
+    <div className="authout">
      <Navbar/>
-        <div className="signin">
+        <div className="authin">
             <div className="left">
 
             </div>
@@ -26,7 +26,7 @@ export default function signin() {
                     </div>
                    
                     <button type="submit" className="main_button">Login</button>
-                    <p>Don't have an account? <Link href={"/Authentication/signup"}>Register</Link></p>
+                    <p className="authlink">Don't have an account? <Link href={"/Authentication/signup"}>Register</Link></p>
                 </form>
             </div>
         </div>
